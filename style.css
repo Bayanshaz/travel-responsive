@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  background-image: url(https://res.cloudinary.com/enchanting/q_70,f_auto,w_870,h_580,c_lfill,g_auto/exodus-web/2021/12/shutterstock_1602875998_st_sunday_crag.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.navs {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.trav {
+  padding: 10rem 2rem;
+  color: aliceblue;
+}
+
+.tr {
+  font-size: 100px;
+}
+
+.ta {
+  font-family: "Grey Qo", cursive;
+}
+
+.cntbutton {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.honey {
+  width: 100%;
+  height: auto;
+}
+
+.hon1 {
+  height: auto;
+}
+
+#festimg {
+  height: 400px;
+}
+
+#bordnorth {
+  border: 1px solid rgb(21, 20, 21);
+  border-radius: 25px;
+  margin: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.north {
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 4px;
+  height: 100%;
+}
+
+.prem {
+  border: 2px solid pink;
+  border-radius: 130px;
+  width: 100%;
+}
+
+#bordprem {
+  border: 1px solid;
+  border-radius: 10%;
+  height: auto;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
+.feat {
+  font-family: "Grey Qo", cursive;
+  color: palevioletred;
+  font-size: 35px;
+}
+
+.line1 {
+  text-decoration: none;
+}
+
+.txt {
+  font-weight: 600;
+}
+
+.checked {
+  color: orange;
+}
+
+.cust {
+  font-family: "Grey Qo", cursive;
+  font-weight: 800;
+}
+
+footer {
+  margin: 70px;
+  background-color: rgb(22, 22, 125);
+  color: aliceblue;
+}
+
+.font {
+  width: 50px;
+  font-size: xx-large;
+}
+
+@media (max-width: 992px) {
+  .tr {
+      font-size: 60px;
+  }
+
+  .ta {
+      font-size: 30px;
+  }
+
+  .trav {
+      padding: 6rem 1rem;
+  }
+
+  .card {
+      margin-bottom: 20px;
+  }
+
+  .carousel-caption {
+      bottom: 10%;
+      font-size: 1rem;
+  }
+
+  .vid {
+      height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tr {
+      font-size: 40px;
+  }
+
+  .ta {
+      font-size: 20px;
+  }
+
+  .trav {
+      padding: 4rem 1rem;
+  }
+}
